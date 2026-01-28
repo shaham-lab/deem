@@ -1,0 +1,94 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deem"
+version = "0.2.0"
+description = "Unsupervised ensemble learning using deep energy-based models to discover latent true labels from diverse, noisy predictions"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "Maymona Albadri", email = "maymona3@campus.technion.ac.il"}
+]
+keywords = [
+    "ensemble learning",
+    "restricted boltzmann machine",
+    "crowd learning",
+    "multi-annotator",
+    "energy-based models",
+    "deep learning",
+    "pytorch",
+    "machine learning",
+    "unsupervised ensemble learning",
+    "crowdsourcing",
+    "pws",
+    "programmatic supervision",
+    "inverse rbm",
+    "mixture of experts",
+    "consensus learning"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "torch>=1.9.0",
+    "numpy>=1.19.0",
+    "scipy>=1.7.0",
+    "entmax>=1.0",
+    "scikit-learn>=0.24.0",
+    "pandas>=1.3.0",
+    "joblib>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "ruff>=0.1.0",
+]
+all = [
+    "deem[dev]",
+]
+
+[project.urls]
+Homepage = "https://github.com/shaham-lab/deem"
+Repository = "https://github.com/shaham-lab/deem"
+Issues = "https://github.com/shaham-lab/deem/issues"
+Changelog = "https://github.com/shaham-lab/deem/blob/main/CHANGELOG.md"
+
+[tool.setuptools]
+packages = ["deem", "deem.core", "deem.core.models", "deem.core.samplers", 
+            "deem.core.preprocessing", "deem.core.training", "deem.core.losses",
+            "deem.core.evaluation", "deem.data", "deem.automl", "deem.automl.models"]
+
+[tool.setuptools.package-data]
+deem = ["py.typed", "automl/models/*.pkl"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+
+[tool.ruff]
+line-length = 100
+target-version = "py38"
+select = ["E", "F", "W", "I", "N", "UP"]
+ignore = ["E501"]  # Line too long (handled by formatter)
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["F401"]  # Unused imports in __init__ files
