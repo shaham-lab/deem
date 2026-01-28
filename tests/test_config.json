@@ -1,0 +1,15 @@
+{
+    "n": 5,
+    "k": 3,
+    "dx": 4,
+    "dh": 1,
+    "device": "cpu",
+    "cd_k": 1,
+
+    "momentum_coefficient": 0,
+    "learning_rate": 0.05,
+    "deterministic": true,
+
+    "seed": 42
+  }
+  

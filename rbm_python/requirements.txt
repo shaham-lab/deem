@@ -1,0 +1,9 @@
+comet_ml
+torch
+torchvision
+numpy
+pillow
+matplotlib
+scikit-learn
+omegaconf
+tensorboard

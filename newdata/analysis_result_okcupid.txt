@@ -1,0 +1,213 @@
+nohup: ignoring input
+/home/dsi/maymona3/.local/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+/home/dsi/maymona3/.local/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+/home/dsi/maymona3/.local/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+/home/dsi/maymona3/.local/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+/home/dsi/maymona3/.local/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+/home/dsi/maymona3/.local/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+/home/dsi/maymona3/.local/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+/home/dsi/maymona3/.local/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Default config loaded with datasets at path:tabrepo1/okcupid-stem.mat
+0 all negative one rows
+╔══════════════════════════════════════════════════╗
+Begin Analysis for default, path: tabrepo1/okcupid-stem.mat
+╔══════════════════════════════════════════════════╗
+Lr:1e-05, Batch size:1024
+(3, 3, 10, 10)
+{'device': device(type='cuda'), 'dtype': None}
+0.7588176669340528
+batches: 41
+tensor(0.6671, device='cuda:0', grad_fn=<MeanBackward0>)
+Init val:
+Val PosNeg Diff -0.7753605013262962
+Val Pos Energy -18.584778913599322
+Val Neg Energy -17.809418412273025
+Positive batch: 0.1289 unique examples ratio
+Negative batch: 0.2312 unique examples ratio
+Ratio of different examples: 0.7051
+Ratio of similar examples: 0.2949
+Performance of LR 1e-05:
+Train Accuracy: 0.7606407545151802
+Valid Accuracy: 0.7497265368628309
+Test Accuracy: 0.7649143532191376
+Train Confusion Matrix:
+[[27557,   934,  1096],
+ [ 5660,  1725,   261],
+ [ 1842,    54,  2010]]
+Lr:5e-05, Batch size:1024
+(3, 3, 10, 10)
+{'device': device(type='cuda'), 'dtype': None}
+0.7588176669340528
+batches: 41
+tensor(0.6671, device='cuda:0', grad_fn=<MeanBackward0>)
+Init val:
+Val PosNeg Diff -0.7753605013262962
+Val Pos Energy -18.584778913599322
+Val Neg Energy -17.809418412273025
+Positive batch: 0.1289 unique examples ratio
+Negative batch: 0.2312 unique examples ratio
+Ratio of different examples: 0.7051
+Ratio of similar examples: 0.2949
+Performance of LR 5e-05:
+Train Accuracy: 0.7594739784632587
+Valid Accuracy: 0.7501640778823014
+Test Accuracy: 0.7651112423705454
+Train Confusion Matrix:
+[[26991,  1280,  1316],
+ [ 5298,  2064,   284],
+ [ 1655,    62,  2189]]
+Lr:0.0001, Batch size:1024
+(3, 3, 10, 10)
+{'device': device(type='cuda'), 'dtype': None}
+0.7588176669340528
+batches: 41
+tensor(0.6671, device='cuda:0', grad_fn=<MeanBackward0>)
+Init val:
+Val PosNeg Diff -0.7753605013262962
+Val Pos Energy -18.584778913599322
+Val Neg Energy -17.809418412273025
+Positive batch: 0.1289 unique examples ratio
+Negative batch: 0.2312 unique examples ratio
+Ratio of different examples: 0.7051
+Ratio of similar examples: 0.2949
+Performance of LR 0.0001:
+Train Accuracy: 0.7591579766158633
+Valid Accuracy: 0.749070225333625
+Test Accuracy: 0.7651112423705454
+Train Confusion Matrix:
+[[26935,  1292,  1360],
+ [ 5280,  2077,   289],
+ [ 1623,    64,  2219]]
+Lr:0.0005, Batch size:1024
+(3, 3, 10, 10)
+{'device': device(type='cuda'), 'dtype': None}
+0.7588176669340528
+batches: 41
+tensor(0.6671, device='cuda:0', grad_fn=<MeanBackward0>)
+Init val:
+Val PosNeg Diff -0.7753605013262962
+Val Pos Energy -18.584778913599322
+Val Neg Energy -17.809418412273025
+Positive batch: 0.1289 unique examples ratio
+Negative batch: 0.2312 unique examples ratio
+Ratio of different examples: 0.7051
+Ratio of similar examples: 0.2949
+Performance of LR 0.0005:
+Train Accuracy: 0.7591093609470332
+Valid Accuracy: 0.749070225333625
+Test Accuracy: 0.7649143532191376
+Train Confusion Matrix:
+[[26899,  1305,  1383],
+ [ 5270,  2085,   291],
+ [ 1596,    65,  2245]]
+Lr:0.001, Batch size:1024
+(3, 3, 10, 10)
+{'device': device(type='cuda'), 'dtype': None}
+0.7588176669340528
+batches: 41
+tensor(0.6671, device='cuda:0', grad_fn=<MeanBackward0>)
+Init val:
+Val PosNeg Diff -0.7753605013262962
+Val Pos Energy -18.584778913599322
+Val Neg Energy -17.809418412273025
+Positive batch: 0.1289 unique examples ratio
+Negative batch: 0.2312 unique examples ratio
+Ratio of different examples: 0.7051
+Ratio of similar examples: 0.2949
+Performance of LR 0.001:
+Train Accuracy: 0.7587690512652228
+Valid Accuracy: 0.7499453073725662
+Test Accuracy: 0.7633392400078756
+Train Confusion Matrix:
+[[26799,  1383,  1405],
+ [ 5202,  2149,   295],
+ [ 1572,    67,  2267]]
+Lr:0.005, Batch size:1024
+(3, 3, 10, 10)
+{'device': device(type='cuda'), 'dtype': None}
+0.7588176669340528
+batches: 41
+tensor(0.6671, device='cuda:0', grad_fn=<MeanBackward0>)
+Init val:
+Val PosNeg Diff -0.7753605013262962
+Val Pos Energy -18.584778913599322
+Val Neg Energy -17.809418412273025
+Positive batch: 0.1289 unique examples ratio
+Negative batch: 0.2312 unique examples ratio
+Ratio of different examples: 0.7051
+Ratio of similar examples: 0.2949
+Performance of LR 0.005:
+Train Accuracy: 0.7612727582099711
+Valid Accuracy: 0.749070225333625
+Test Accuracy: 0.7655050206733609
+Train Confusion Matrix:
+[[27258,  1125,  1204],
+ [ 5436,  1943,   267],
+ [ 1731,    58,  2117]]
+Lr:0.01, Batch size:1024
+(3, 3, 10, 10)
+{'device': device(type='cuda'), 'dtype': None}
+0.7588176669340528
+batches: 41
+tensor(0.6671, device='cuda:0', grad_fn=<MeanBackward0>)
+Init val:
+Val PosNeg Diff -0.7753605013262962
+Val Pos Energy -18.584778913599322
+Val Neg Energy -17.809418412273025
+Positive batch: 0.1289 unique examples ratio
+Negative batch: 0.2312 unique examples ratio
+Ratio of different examples: 0.7051
+Ratio of similar examples: 0.2949
+Performance of LR 0.01:
+Train Accuracy: 0.7610296798658207
+Valid Accuracy: 0.7486326843141544
+Test Accuracy: 0.7655050206733609
+Train Confusion Matrix:
+[[27534,   963,  1090],
+ [ 5631,  1756,   259],
+ [ 1837,    51,  2018]]
+Lr:0.05, Batch size:1024
+(3, 3, 10, 10)
+{'device': device(type='cuda'), 'dtype': None}
+0.7588176669340528
+batches: 41
+tensor(0.6671, device='cuda:0', grad_fn=<MeanBackward0>)
+Init val:
+Val PosNeg Diff -0.7753605013262962
+Val Pos Energy -18.584778913599322
+Val Neg Energy -17.809418412273025
+Positive batch: 0.1289 unique examples ratio
+Negative batch: 0.2312 unique examples ratio
+Ratio of different examples: 0.7051
+Ratio of similar examples: 0.2949
+Performance of LR 0.05:
+Train Accuracy: 0.719366051678456
+Valid Accuracy: 0.6843141544519799
+Test Accuracy: 0.715888954518606
+Train Confusion Matrix:
+[[29585,     0,     2],
+ [ 7643,     0,     3],
+ [ 3897,     0,     9]]
+Saved plot to analysis_results\okcupid.png
+Saved plot to analysis_results\okcupid.png
+Saved plot to analysis_results\okcupid.png
+LRs improvements
+Acc: 0.7606407545151802 from 0.7588176669340528, LR: 1e-05
+Acc: 0.7594739784632587 from 0.7588176669340528, LR: 5e-05
+Acc: 0.7591579766158633 from 0.7588176669340528, LR: 0.0001
+Acc: 0.7591093609470332 from 0.7588176669340528, LR: 0.0005
+Acc: 0.7587690512652228 from 0.7588176669340528, LR: 0.001
+Acc: 0.7612727582099711 from 0.7588176669340528, LR: 0.005
+Acc: 0.7610296798658207 from 0.7588176669340528, LR: 0.01
+Acc: 0.719366051678456 from 0.7588176669340528, LR: 0.05
+The best learning rate is 0.05
+╚══════════════════════════════════════════════════╝
+Best Learning Rate for Experiment:0.05

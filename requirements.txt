@@ -1,0 +1,19 @@
+# Requirements inferred from repository imports
+# Add versions as needed, e.g. numpy==1.26.0
+
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+seaborn
+tqdm
+joblib
+pyyaml
+h5py
+
+optuna
+optunahub
+

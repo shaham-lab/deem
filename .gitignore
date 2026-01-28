@@ -1,0 +1,84 @@
+# Compiled python modules
+__pycache__/
+*.pyc
+*.ipypirc
+*.pypirc
+bob/
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pytest cache
+.pytest_cache/
+
+# Virtualenv
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# PyPI credentials
+.pypirc
+
+# Other files
+*.log
+*.swp
+*.swo
+*.pth
+
+
+*.png
+*.sqlite3
+*.npy
+*.npz
+*.zip
+l40s/*
+best_model_*
+buffer_*
+
+# Logs
+src/logs/*
+*.tfevents.*
+
+output.txt
+
+# LLM-generated documentation and planning files
+AGENTS.md
+CODE_ORGANIZATION.md
+CONSTITUTION.md
+CRITICAL_CORRECTIONS.md
+MIGRATION_GUIDE.md
+MISSING_FEATURES.md
+NEW_REPO_GUIDE.md
+NEXT_STEPS.md
+PLAN.md
+PLANNING_COMPLETE.md
+PREPROCESSING_SUPPORT.md
+PROGRESS.md
+PUBLICATION_STATUS.md
+PUBLISHING_GUIDE.md
+TASK_BREAKDOWN.md
+TESTING_FINDINGS.md
+USER_DECISIONS.md
+VALIDATION_REPORT.md
+WORKFLOW_ANALYSIS.md
+tasks/
+
+
+# Temporary files created during experiments
+test_automl_corrected_paths.py
+run_automl_experiments.py
+automl_results_summary.md
+corrected_paths_results.md
